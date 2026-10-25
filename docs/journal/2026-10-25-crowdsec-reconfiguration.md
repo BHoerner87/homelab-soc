@@ -1,4 +1,5 @@
 The following is adapted from a Claude report on work done, although not written by Claude.
+Edit: I didn't think about the fact that Markdown doesn't output in monotype, and so the little diagram I slapped together looks bad unless you switch to Code on GitHub.I won't make this mistake again. I will probably not attempt to diagram anything again, either, because it wasn't remotely worth the effort I put in, even if it had shown correctly.
 
 ## What was done and why
 The VM hosting most of my Internet-exposed services contained a crowdsec setup which only benefitted that specific VM. This offered some protection for other Docker services running through NPM, but some services exposed through NPM do not benefit from Cloudflare MFA or Zero Trust because it would break their application access / logins. (For example, if a family member wants to access Jellyfin to watch home movies, an MFA landing page would prevent their Jellyfin app from ever connecting to my URL since it isn't equipped to handle that landing page. Ditto services like Joplin.)
