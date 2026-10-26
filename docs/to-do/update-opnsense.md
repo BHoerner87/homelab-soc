@@ -1,0 +1,1 @@
+I thought I had updated OPNsense to its newest firmware but that is, apparently, not the case. I am going to need to do that ASAP. That means tonight, since I can't do it remotely with the full confidence that nothing will go wrong; I need to do it when I'm home to console into it if worst comes to worst.
